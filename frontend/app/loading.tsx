@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="mx-auto max-w-6xl px-4 py-16"><div className="skeleton h-8 w-48 rounded-lg bg-slate-200"/><div className="skeleton mt-4 h-4 max-w-xl rounded bg-slate-200"/><div className="skeleton mt-8 h-48 rounded-2xl bg-white shadow-sm"/></div>}

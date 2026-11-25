@@ -1,0 +1,86 @@
+[
+  {
+    "id": "cs-01",
+    "subject": "Programming",
+    "topic": "Python",
+    "difficulty": "beginner",
+    "question": "What is a variable in Python, and give one simple example?"
+  },
+  {
+    "id": "cs-02",
+    "subject": "Programming",
+    "topic": "Python",
+    "difficulty": "intermediate",
+    "question": "Explain the difference between a list and a tuple in Python and when you would use each."
+  },
+  {
+    "id": "cs-03",
+    "subject": "Algorithms",
+    "topic": "Big-O",
+    "difficulty": "advanced",
+    "question": "Explain why binary search is O(log n) and state the condition required for it to work."
+  },
+  {
+    "id": "cs-04",
+    "subject": "Machine Learning",
+    "topic": "Linear Regression",
+    "difficulty": "beginner",
+    "question": "What is linear regression and what is it used for?"
+  },
+  {
+    "id": "cs-05",
+    "subject": "Machine Learning",
+    "topic": "Overfitting",
+    "difficulty": "intermediate",
+    "question": "What is overfitting in machine learning, and give two ways to reduce it."
+  },
+  {
+    "id": "cs-06",
+    "subject": "Machine Learning",
+    "topic": "Backpropagation",
+    "difficulty": "advanced",
+    "question": "Explain the role of backpropagation when training a neural network."
+  },
+  {
+    "id": "cs-07",
+    "subject": "Database",
+    "topic": "Normalization",
+    "difficulty": "beginner",
+    "question": "What is database normalization and why is it useful?"
+  },
+  {
+    "id": "cs-08",
+    "subject": "Database",
+    "topic": "Transactions",
+    "difficulty": "intermediate",
+    "question": "Explain the ACID properties of a database transaction with a simple example."
+  },
+  {
+    "id": "cs-09",
+    "subject": "Computer Networks",
+    "topic": "TCP vs UDP",
+    "difficulty": "intermediate",
+    "question": "Compare TCP and UDP and give one practical use case for each."
+  },
+  {
+    "id": "cs-10",
+    "subject": "Operating Systems",
+    "topic": "Processes",
+    "difficulty": "advanced",
+    "question": "Explain the difference between a process and a thread and discuss one advantage of threads."
+  },
+  {
+    "id": "cs-11",
+    "subject": "Web Development",
+    "topic": "HTTP",
+    "difficulty": "beginner",
+    "question": "What is HTTP and what happens at a high level when a browser requests a web page?"
+  },
+  {
+    "id": "cs-12",
+    "subject": "Artificial Intelligence",
+    "topic": "RAG",
+    "difficulty": "advanced",
+    "question": "Explain retrieval-augmented generation and why retrieving external evidence can reduce hallucination risk."
+  }
+]

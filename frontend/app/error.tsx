@@ -1,0 +1,3 @@
+'use client';
+import {useEffect} from 'react';
+export default function ErrorPage({error,reset}:{error:Error&{digest?:string};reset:()=>void}){useEffect(()=>{console.error(error)},[error]);return <main className="mx-auto max-w-xl px-5 py-20 text-center"><div className="rounded-2xl border bg-white p-8 shadow-sm"><p className="text-sm font-semibold text-indigo-600">Something went wrong</p><h1 className="mt-2 text-2xl font-bold">We couldn’t load this page.</h1><p className="mt-3 text-slate-500">Try again. Your saved learning data is not affected by this screen.</p><button onClick={()=>reset()} className="focus-ring mt-6 rounded-xl bg-indigo-600 px-5 py-3 font-semibold text-white">Try again</button></div></main>}
