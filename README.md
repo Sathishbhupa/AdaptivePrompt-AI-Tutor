@@ -2,14 +2,6 @@
 
 MCA mini-project: adaptive AI tutoring with separate Tutor/Chat modes, prompt-engineering strategies, Supabase Auth/Postgres, FastAPI, Gemini and Groq.
 
-## Current build
-- **Phase 11:** User-facing Research Lab removed; evaluation remains backend-only for MCA analysis. Production-hardening pass adds correct favicon assets, safer headers, resilient error/loading states, provider status, and current model defaults.
-- **Phase 1:** Supabase Auth, RLS, FastAPI JWT trust boundary.
-- **Phase 2:** Gemini/Groq provider abstraction with retry/backoff and clean provider errors.
-- **Phase 3:** Adaptive Tutor with learner context, difficulty classification, prompt-strategy selection, structured responses and interaction persistence.
-- **Phase 4:** Tutor UI with structured answer cards and practice-answer evaluation.
-- **Phase 6 foundation:** XP derived from real interaction rows, practice attempts, streak calculation, strategy-usage analytics and badges.
-
 ## Prompt-engineering techniques
 Tutor dynamically selects among:
 - Persona + Zero-shot + Scaffolding
